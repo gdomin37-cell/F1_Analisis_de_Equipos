@@ -17,29 +17,34 @@ Obtención de datos desde una API de Fórmula 1
 Recopilación de información de carreras, equipos y resultados
 
 2️⃣ Limpieza y transformación de datos
+
 Notebook: limpiezaDatosCsv.ipynb
 Tratamiento de valores nulos
 Estandarización de datos
 Preparación del dataset para análisis
 
 3️⃣ Visualización y análisis
+
 Herramienta: Power BI
 Creación de dashboard interactivo
 Definición de KPIs y métricas clave
 
 🎯 Objetivos
+
 Analizar el rendimiento global de cada escudería
 Comparar equipos entre distintas temporadas
 Identificar métricas clave como victorias, podios y abandonos
 Evaluar la eficiencia mediante pit stops y ritmo de carrera
 
 🗂️ Modelo de datos
+
 Se ha utilizado un modelo tipo estrella, compuesto por:
 
 Tablas de dimensiones: equipos, pilotos, circuitos
 Tablas de hechos: resultados, vueltas, pit stops y campeonato
 
 📊 Características del dashboard
+
 Métricas de rendimiento por equipo (puntos, victorias, podios, abandonos)
 Análisis de estrategia y degradación (pit stops y ritmo)
 KPIs técnicos por escudería
